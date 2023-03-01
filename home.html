@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+    <div class="main-body">
+        <header class="header">
+            <h1 id="title" class="header-title">
+                Hello! Welcome to the info survey!
+            </h1>
+            <p id="description" class="header-text">
+                Please enter your information below and we will look it over.
+            </p>
+        </header>
+        <form id="survey-form" class="">
+            <div class="form">
+                <label id="name-label" class="label-title">Enter your Name</label>
+                <input id="name" placeholder="Name..." required class="text-input"></input>
+            </div>
+            <div class="form">
+                <label id="email-label" class="label-title">Enter your email</label>
+                <input id="email" type="email" placeholder="Email..." class="text-input" required></input>
+            </div>
+            <div class="form">
+                <label id="number-label" class="label-title">Enter your Number</label>
+                <input id="number" type="number" placeholder="number..."max=10 min=0 required class="text-input"></input>
+            </div>
+            <div class="form">
+                <label id="dropdown-label" class="label-title">Enter your location</label>
+                <select id="dropdown" class="text-input">
+                    <option>US</option>
+                    <option>Outside Territory</option>
+                </select>
+            </div>
+            <div class="form">
+                <label id="dropdown-label" class="label-title">What is your desired pay range?</label>
+                <fieldset class="text-input">
+                    <label id="dropdown-label">
+                        <input type="radio" name="button1" value=19 class="radio-check">$80,000</input>
+                    </label>
+                    <label id="dropdown-label">
+                        <input type="radio" name="button2" value=17 class="radio-check">$90,000</input>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="form">
+                <label id="dropdown-label" class="label-title">Will you need any other accomodations?</label>
+                <fieldset class="text-input">
+                    <label>
+                        <input type="radio" name="button1" value=7 class="radio-check">Yes</input>
+                    </label>
+                    <label>
+                        <input type="radio" name="button2" value=9 class="radio-check">No</input>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="form">
+                <label id="dropdown-label" class="label-title">Where did you hear about us?</label>
+                <fieldset class="text-input">
+                    <labeL>
+                        <input type="checkbox" name="button2" value=9 class="radio-check">Job Fair</input>
+                    </labeL>
+                    <label>
+                        <input type="checkbox" name="button2" value=9 class="radio-check">LinkedIn</input>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="button2" value=9 class="radio-check">Friends or Family</input>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="form">
+                <label id="dropdown-label" class="label-title">Any additional comments?</label>
+                <textarea class="text-area" placeholder="Enter text here..."></textarea>
+            </div>
+            <div class="form">
+                <button id="submit" type="submit" class="button-sizing">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

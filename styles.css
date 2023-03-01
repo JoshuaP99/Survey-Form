@@ -1,0 +1,91 @@
+html{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    display: block;
+}
+
+form{
+    display: block;
+    background-color: #c4c4c4;
+    box-shadow: 0px 3px 6px #ffffff29;
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 60%;
+}
+
+label{
+    display: flex;
+    align-items: center;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header-title{
+    margin-left: 1rem;
+    margin-right: 1rem;  
+    
+}
+
+.header-text{
+    margin-left: 1rem;
+    margin-right: 1rem;  
+}
+
+.label-title{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.form{
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.text-input{
+    display: block;
+    width: 100%;
+    padding: 1rem .5rem;
+    color: #000000;
+    background-color: #fff;
+    border: 0px;
+    border-radius: .5rem;
+}
+
+.radio-check{
+    display: inline-block;
+    margin-right: 0.625rem;
+}
+
+.text-area{
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+.button-sizing{
+    width: 100%;
+    font-size: 2rem;
+    background-color: rgb(0, 0, 110);
+    color: white;
+    height: 4rem;
+    border: 0px;
+    border-radius: 1rem;
+}
